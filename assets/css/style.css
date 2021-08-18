@@ -87,7 +87,16 @@ h6 {
   bottom: 15px;
   z-index: 99999;
 }
-
+.circle {
+  background-color: grey;
+  border-radius: 50px;
+  width:70px;
+  height:70px;
+  color:white;
+}
+.icon-margin{
+  margin-top: 12px;
+}
 .back-to-top i {
   display: flex;
   align-items: center;
