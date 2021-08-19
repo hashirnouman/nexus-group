@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  font-size: 25px;
+}
+.small-text {
+  margin-left: 5px;
+}
+.dropdown {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.dropdown select {
+  width: 400px;
+  height: 40px;
+}
+.dropdown option {
+  transition: 0.2s ease-in-out;
+}
+
+.chart {
+  max-width: 70%;
+  margin-left: 50px;
+}
+
+.btn-year {
+  width: 250px;
+}
+
+.btn-organization {
+  width: 400px;
+}
