@@ -40,3 +40,9 @@ body {
 .btn-organization {
   width: 400px;
 }
+@media screen and (width: 500px) {
+  .chart {
+    width: 100%;
+    height: 100%;
+  }
+}

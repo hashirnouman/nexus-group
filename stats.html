@@ -113,7 +113,11 @@
       const config = {
         type: "bar",
         data: data,
-        options: {},
+        options: {
+          responsive: true,
+          maintainAspectRatio: true,
+          aspectRatio: 2,
+        },
       };
 
       var myChart = new Chart(document.getElementById("myChart"), config);
