@@ -4,6 +4,7 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden !important;
 }
 .title {
   display: flex;
@@ -28,9 +29,8 @@ body {
   transition: 0.2s ease-in-out;
 }
 
-.chart {
-  max-width: 70%;
-  margin-left: 50px;
+.chart #mychart {
+  height: 20%;
 }
 
 .btn-year {
@@ -42,7 +42,6 @@ body {
 }
 @media screen and (width: 500px) {
   .chart {
-    width: 100%;
-    height: 100%;
+    max-width: 70%;
   }
 }
